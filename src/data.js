@@ -88,7 +88,7 @@ export const experience = [
   {
     role: 'Full Stack .NET Developer',
     badge: '2025 – Present',
-    company: 'IT Company · India',
+    company: 'Trimed Technologies · India',
     desc: 'Developing scalable web applications with ASP.NET Core and secure REST APIs, designing responsive React front-ends, and building cross-platform mobile apps with React Native. Integrating SQL databases, implementing authentication and authorization, deploying to cloud servers and VPS, and optimizing application performance across the software development lifecycle.',
     tags: ['ASP.NET Core', 'C#', 'React', 'React Native', 'SQL Server', 'REST APIs'],
   },

@@ -638,21 +638,78 @@ footer span { color: var(--accent); }
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 3px; }
 
-/* MOBILE */
-@media (max-width: 768px) {
-  nav { padding: 1rem 1.2rem; }
-  .nav-links { display: none; }
-  .hamburger { display: flex; }
-  .hero { padding: 6rem 1.2rem 3rem; }
-  .hero-content { grid-template-columns: 1fr; gap: 2rem; }
-  .hero-visual { order: -1; }
-  .hero-card { max-width: 100%; }
-  section { padding: 3.5rem 1.2rem; }
-  .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .skills-grid { grid-template-columns: repeat(3, 1fr); }
-  .projects-grid { grid-template-columns: 1fr; }
-  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
-  .process-grid { grid-template-columns: 1fr; }
+/* ===== RESPONSIVE ===== */
+
+/* Touch devices — no custom cursor */
+@media (hover: none), (pointer: coarse) {
   body { cursor: auto; }
   .cursor, .cursor-ring { display: none; }
+}
+
+/* Large tablets / small laptops */
+@media (max-width: 1024px) {
+  nav { padding: 1rem 1.5rem; }
+  .nav-links { gap: 1.3rem; }
+  .nav-links a { font-size: 0.85rem; }
+  section { padding: 4.5rem 1.5rem; }
+  .hero { padding: 7rem 1.5rem 4rem; }
+  .hero-content { gap: 2.5rem; }
+  .about-grid { gap: 2rem; }
+  .contact-grid { gap: 2.5rem; }
+}
+
+/* Tablets (portrait) and below — switch to hamburger + single column */
+@media (max-width: 900px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .hero-content { grid-template-columns: 1fr; gap: 2.5rem; }
+  .hero-visual { order: -1; }
+  .hero-card { max-width: 360px; margin: 0 auto; }
+  .hero-desc { max-width: none; }
+  .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+  .contact-grid { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+/* Phones */
+@media (max-width: 768px) {
+  nav { padding: 0.9rem 1.2rem; }
+  .hero { padding: 6rem 1.2rem 3rem; }
+  section { padding: 3.5rem 1.2rem; }
+  .section-sub { max-width: 100%; }
+  .services-grid { grid-template-columns: 1fr; }
+  .projects-grid { grid-template-columns: 1fr; }
+  .process-grid { grid-template-columns: 1fr; }
+  .skills-grid { grid-template-columns: repeat(3, 1fr); }
+  .contact-item > div { min-width: 0; }
+  .contact-val { overflow-wrap: anywhere; }
+  body { cursor: auto; }
+  .cursor, .cursor-ring { display: none; }
+}
+
+/* Small phones */
+@media (max-width: 560px) {
+  section { padding: 3rem 1rem; }
+  .hero { padding: 5.5rem 1rem 2.5rem; }
+  .hero-card { padding: 1.5rem; }
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .exp-card, .service-card, .about-why, .process-card { padding: 1.4rem; }
+  .contact-form { padding: 1.5rem; }
+  .hero-tag { font-size: 0.68rem; letter-spacing: 0.08em; }
+  .exp-head { flex-direction: column; align-items: flex-start; }
+  .hero-btns { width: 100%; }
+  .hero-btns .btn { flex: 1 1 auto; text-align: center; }
+}
+
+/* Very small phones (iPhone SE, Galaxy Fold, etc.) */
+@media (max-width: 380px) {
+  nav { padding: 0.8rem 1rem; }
+  .nav-logo { font-size: 1.1rem; }
+  .hero-name { font-size: 2.3rem; }
+  .hero-title { font-size: 1rem; }
+  .stat-grid { gap: 0.6rem; }
+  .stat { padding: 0.7rem; }
+  .stat-num { font-size: 1.2rem; }
+  .mobile-menu { width: 100%; left: 0; right: 0; border-radius: 0 0 12px 12px; }
+  .availability-chip { font-size: 0.72rem; }
+  .contact-val { font-size: 0.82rem; word-break: break-word; }
 }
