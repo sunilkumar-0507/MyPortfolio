@@ -110,23 +110,17 @@ export const experience = [
 
 export const projects = [
   {
+    title: 'SKV Pyros — Cracker Store',
+    desc: 'An online storefront for Sivakasi Diwali crackers with a 177-product catalogue across 12 categories, cart and checkout with WhatsApp order hand-off, all served from a shared ASP.NET Core REST API.',
+    tech: ['React', 'Tailwind CSS', 'ASP.NET Core', 'MySQL'],
+    link: 'https://skvpyros.in/',
+  },
+  {
     title: 'Tenkasi Fresh',
     desc: 'A complete e-commerce platform for fresh fruits and vegetables — customer ordering, secure authentication, shopping cart, order tracking, admin dashboard, inventory management, and a fully responsive UI.',
     tech: ['ASP.NET Core Web API', 'React', 'SQL Server', 'JWT Auth'],
     link: 'https://tenkasifresh.in/',
-  },
-  {
-    title: 'Farm Management System',
-    desc: 'A digital management solution for agricultural businesses to track expenses, worker management, crop information, financial reports, and day-to-day operational activities.',
-    tech: ['ASP.NET Core MVC', 'MySQL', 'EF Core'],
-    link: '',
-  },
-  {
-    title: 'React Native Shopping App',
-    desc: 'A cross-platform mobile shopping app with seamless browsing, secure login, order tracking, push notifications, and account management.',
-    tech: ['React Native', 'REST API', 'Android'],
-    link: '',
-  },
+  },    
   {
     title: 'Vymox Drone',
     desc: 'A sleek marketing and product website for Vymox drones, showcasing drone models, features, and specifications with an immersive, modern UI and smooth interactions.',
@@ -134,9 +128,57 @@ export const projects = [
     link: 'https://www.vyomexdrones.com/',
   },
   {
-    title: 'Jcs Home',
-    desc: 'A web application for Jcs Home — presenting machinery, services, and enquiry features through a responsive, professional interface.',
-    tech: ['React', 'CSS', 'JavaScript'],
+    title: 'Bharath Oxygen — Stock & Delivery',
+    desc: 'A stock allocation and delivery management system for an industrial gas supplier — cylinder inventory, allocation, delivery tracking, and dashboards with charts.',
+    tech: ['React', 'TypeScript', 'TanStack Query', 'Recharts'],
+    link: 'https://gas-company-chi.vercel.app/',
+  },
+  {
+    title: 'K76 Financial',
+    desc: 'A finance management application for lending, chit funds, and collections, with dashboards and reports. Includes a demo mode so it runs without a backend.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Recharts'],
+    link: 'https://k76-finance.vercel.app/',
+  },
+  {
+    title: 'K76 CRM',
+    desc: 'A customer relationship management system built on a clean-architecture ASP.NET Core API with JWT authentication, validation, and logging, plus a deployable UI with a demo account.',
+    tech: ['ASP.NET Core', 'EF Core', 'JWT Auth', 'React'],
+    link: 'https://k76-crm.vercel.app/',
+  },
+  {
+    title: 'Farm Management System',
+    desc: 'A digital management solution for agricultural businesses to track expenses, worker management, crop information, financial reports, and day-to-day operational activities.',
+    tech: ['React', 'ASP.NET Core Web API', 'SQL Server', 'EF Core'],
+    link: 'https://farm-management-ten-woad.vercel.app/',
+  },
+  {
+    title: 'Daily Pans — Steel Kitchenware',
+    desc: 'A factory-direct e-commerce storefront for stainless steel kitchenware from Chennai, connected to a backend API with an admin panel for products and orders.',
+    tech: ['React', 'Tailwind CSS', 'ASP.NET Core'],
+    link: 'https://jcs-steel-products.vercel.app/',
+  },
+  {
+    title: 'Sanjith Home Loans',
+    desc: 'A lead-generation website for a Chennai home loan and property finance consultancy, with service pages, terms, and SEO content on every route.',
+    tech: ['React', 'Bootstrap', 'Sass'],
+    link: 'https://home-loan-site.vercel.app/',
+  },
+  {
+    title: 'APEX Constructions',
+    desc: 'A premium construction company website with 3D visuals, scroll-driven animations, and smooth scrolling to showcase landmark projects and services.',
+    tech: ['Next.js', 'Three.js', 'GSAP', 'Framer Motion'],
+    link: 'https://construction-demo-nine.vercel.app/',
+  },
+  {
+    title: 'Cafe Billing System',
+    desc: 'A billing and point-of-sale app for cafes — quick order entry, bill generation, and sales charts.',
+    tech: ['React', 'Chart.js', 'Vite'],
+    link: 'https://cafe-billing-six.vercel.app/',
+  },
+  {
+    title: 'React Native Shopping App',
+    desc: 'A cross-platform mobile shopping app with seamless browsing, secure login, order tracking, push notifications, and account management.',
+    tech: ['React Native', 'REST API', 'Android'],
     link: '',
   },
   {
@@ -149,7 +191,7 @@ export const projects = [
     title: 'Personal Portfolio Website',
     desc: 'This modern developer portfolio, showcasing my skills, projects, and experience with three.js animations, smooth transitions, and a responsive design.',
     tech: ['React', 'Three.js', 'CSS'],
-    link: '',
+    link: 'https://my-portfolio-chi-nine-85.vercel.app/',
   },
 ]
 
