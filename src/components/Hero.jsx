@@ -53,7 +53,7 @@ export default function Hero() {
             </div>
             <div className="stat-grid">
               <div className="stat"><div className="stat-num"><CountUp end={1} suffix="+" /></div><div className="stat-label">Yrs Experience</div></div>
-              <div className="stat"><div className="stat-num"><CountUp end={7} suffix="+" /></div><div className="stat-label">Projects Done</div></div>
+              <div className="stat"><div className="stat-num"><CountUp end={14} suffix="+" /></div><div className="stat-label">Projects Done</div></div>
               <div className="stat"><div className="stat-num"><CountUp end={15} suffix="+" /></div><div className="stat-label">Technologies</div></div>
               <div className="stat"><div className="stat-num"><CountUp end={8.01} decimals={2} /></div><div className="stat-label">CGPA</div></div>
             </div>
